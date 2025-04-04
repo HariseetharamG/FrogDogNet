@@ -1,4 +1,3 @@
-# FrogDogNet
-Code for our CVPR 2025 paper: FrogDogNet. 
+# FrogDogNet 
 Code will be uploaded soon. Stay tuned!
 
