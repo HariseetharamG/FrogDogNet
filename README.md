@@ -1,3 +1,3 @@
-# FrogDogNet - EarthVision CVPR2025
+# FrogDogNet - EarthVision CVPRw2025
 Code will be uploaded soon. Stay tuned!
 
