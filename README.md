@@ -48,8 +48,9 @@ $conda install pytorch==1.12.1 torchvision==0.13.1 cudatoolkit=10.2 -c pytorch$ 
 - `json` folder contains the data splits of the datasets. Put these files inside each of the data folders.
  - Clone the [dassl](https://github.com/KaiyangZhou/Dassl.pytorch/tree/master/dassl) folder inside this repo.
  - Replace the `dassl/engine/trainer.py` file with the modified [trainer](https://github.com/HariseetharamG/FrogDogNet/blob/main/dassl/engine/trainer.py) file.
+### Script running commands 
 ```shell
-$ cd scripts
+$ cd FrogDogNet
 $ bash scripts/FrogDogNet/base2new_train.sh patternnet 1
 $ bash scripts/FrogDogNet/base2new_test.sh patternnet 1
 $ bash scripts/FrogDogNet/crossdataset_train.sh patternnet 1
@@ -57,3 +58,21 @@ $ bash scripts/FrogDogNet/crossdataset_test.sh rsicd 1
 $ bash scripts/FrogDogNet/domaingen_train.sh patternnetv2 1
 $ bash scripts/FrogDogNet/domaingen_test.sh rsicdv2 1
 ```
+## Bibtex
+
+Please cite the paper if you use our work . Thanks.
+
+```
+@InProceedings{Gunduboina_2025_CVPR,
+    author    = {Gunduboina, Hariseetharam and Khan, Muhammad Haris and Banerjee, Biplab},
+    title     = {FrogDogNet: Fourier frequency Retained visual prompt Output Guidance for Domain Generalization of CLIP in Remote Sensing},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
+    month     = {June},
+    year      = {2025},
+    pages     = {2384-2397}
+}
+```
+
+## Acknowledgements
+
+We extend our gratitude to the authors of [CoOp](https://github.com/KaiyangZhou/CoOp), as our framework is heavily built upon their foundational repository. We also thank the authors of [APPLeNet](https://github.com/mainaksingha01/APPLeNet.git) for their open-source data loaders and dataset configurations, which were instrumental in our evaluation.
