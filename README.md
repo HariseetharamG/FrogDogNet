@@ -29,7 +29,7 @@ FrogDogNet is composed of a text encoder, an image encoder, and a static Fourier
   - [RESISC45](https://www.tensorflow.org/datasets/catalog/resisc45)
   - [MLRSNet](https://data.mendeley.com/datasets/7j9bv9vwsx/3)
 
-## Released Datasets (Version-2):
+## Version 2 Datasets (Version-2):
 - For Domain Generalization:
   - [PatternNetv2](https://drive.google.com/file/d/1K-GZ2KjQ3hn17JJBrxnmXsTxAFeg2XUT/view?usp=sharing)
   - [RSICDv2](https://drive.google.com/file/d/1uhlTHQCHkE0KD04YGBAKsxPgG14eQez_/view?usp=sharing)
@@ -43,3 +43,5 @@ FrogDogNet is composed of a text encoder, an image encoder, and a static Fourier
 ```bash
 $conda create -n frogdognet python=3.8$ conda activate frogdognet
 $conda install pytorch==1.12.1 torchvision==0.13.1 cudatoolkit=10.2 -c pytorch$ pip install -r requirements.txt
+```
+## Code Instructions
