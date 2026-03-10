@@ -18,7 +18,7 @@ Unlike standard spatial-domain adapters that inadvertently absorb non-transferab
 
 ## Architecture
 
-![architecture](images/architecture.png)
+![architecture](images/model.png)
 
 FrogDogNet is composed of a text encoder, an image encoder, and a static Fourier frequency filter designed for visual feature refinement. The image encoder extracts visual features, which are then transformed into the Fourier domain. A heuristic frequency thresholding module strips away high-frequency sensor noise. These cleaned, domain-invariant features are then passed to the Meta-Net to generate robust conditional bias tokens for the text prompts.
 
