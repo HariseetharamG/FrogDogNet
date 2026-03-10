@@ -1,12 +1,12 @@
-# FrogDogNet: Fourier frequency Retained visual prompt Output Guidance for Domain Generalization using CLIP
+# FrogDogNet: Fourier frequency Retained visual prompt Output Guidance for Domain Generalization of CLIP
 
 Official repository of FrogDogNet, which introduces a static Fourier cutoff mechanism to filter high-frequency sensor noise for unknown class and domain generalization in Remote Sensing by adapting pre-trained vision-language models (VLM) like [CLIP](https://arxiv.org/abs/2103.00020).
 
 ## **CVPRw 2025 (EarthVision)**
 
 [![paper](https://img.shields.io/badge/Conference-Paper-blue)](https://openaccess.thecvf.com/content/CVPR2025W/EarthVision/papers/Gunduboina_FrogDogNet_Fourier_frequency_Retained_visual_prompt_Output_Guidance_for_Domain_CVPRW_2025_paper.pdf)
-[![supplement](https://img.shields.io/badge/Supplementary-Material-F9D371)](#) 
-[![arXiv](https://img.shields.io/badge/arXiv-Paper-brightgreen)](#)
+[![supplement](https://img.shields.io/badge/Supplementary-Material-F9D371)](https://openaccess.thecvf.com/content/CVPR2025W/EarthVision/supplemental/Gunduboina_FrogDogNet_Fourier_frequency_CVPRW_2025_supplemental.pdf) 
+[![arXiv](https://img.shields.io/badge/arXiv-Paper-brightgreen)](https://arxiv.org/pdf/2504.16433)
 
 ## Abstract
 
