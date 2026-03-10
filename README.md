@@ -45,3 +45,6 @@ $conda create -n frogdognet python=3.8$ conda activate frogdognet
 $conda install pytorch==1.12.1 torchvision==0.13.1 cudatoolkit=10.2 -c pytorch$ pip install -r requirements.txt
 ```
 ## Code Instructions
+- `json` folder contains the data splits of the datasets. Put these files inside each of the data folders.
+ - Clone the [dassl](https://github.com/KaiyangZhou/Dassl.pytorch/tree/master/dassl) folder inside this repo.
+ - Replace the `dassl/engine/trainer.py` file with the modified [trainer](https://github.com/HariseetharamG/FrogDogNet/blob/master/dassl/engine/trainer.py) file.
