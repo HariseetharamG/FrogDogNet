@@ -35,6 +35,7 @@ import datasets.imagenet_r
 import trainers.coop
 import trainers.cocoop
 import trainers.zsclip
+import trainers.FrogDogNet
 
 
 def print_args(args, cfg):
@@ -107,6 +108,11 @@ def extend_cfg(cfg):
     cfg.TRAINER.COCOOP.N_CTX = 4  # number of context vectors
     cfg.TRAINER.COCOOP.CTX_INIT = ""  # initialization words
     cfg.TRAINER.COCOOP.PREC = "fp16"  # fp16, fp32, amp
+
+    cfg.TRAINER.FrogDogNet = CN()
+    cfg.TRAINER.FrogDogNet.N_CTX = 4  # number of context vectors
+    cfg.TRAINER.FrogDogNet.CTX_INIT = ""  # initialization words
+    cfg.TRAINER.FrogDogNet.PREC = "fp16"  # fp16, fp32, amp
 
     cfg.DATASET.SUBSAMPLE_CLASSES = "base"  # all, base or new
 
@@ -214,4 +220,3 @@ if __name__ == "__main__":
     )
     args = parser.parse_args()
     main(args)
-
